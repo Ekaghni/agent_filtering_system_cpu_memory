@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "@timestamp": {
+      "type": "date",
+      "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+    },
+    "dataset": {
+      "type": "keyword"
+    },
+    "rating": {
+      "type": "double"
+    }
+  }
+}
